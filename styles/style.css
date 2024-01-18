@@ -11,7 +11,7 @@
   padding: 44px 0px 40px 26px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   gap: 32px;
 }
@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-.header__logo{
+.header__logo {
   display: block;
   width: 136px;
   height: 105px;
