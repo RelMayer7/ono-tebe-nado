@@ -42,7 +42,7 @@
 
 .address {
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 135%;
   letter-spacing: 0.18px;
   text-underline-offset: 4px;
 }
@@ -68,18 +68,19 @@
 }
 
 .cover-title {
+  display: grid;
+  gap: 20px;
   width: 100%;
   padding: 165px 50px 135px 50px;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
-  display: block;
   line-height: 1.15;
-  letter-spacing: 30px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #FFF;
-  font-size: 100px;
 }
 
 .letter-spacing-extended {
@@ -87,15 +88,12 @@
 }
 
 .aligned-text_center {
-  padding-top: 20px;
   line-height: 1;
   text-align: center;
 }
 
 .aligned-text_right {
-  padding-top:20px;
   line-height: 1;
-  letter-spacing: 30px;
   text-align: right;
 }
 
@@ -115,18 +113,18 @@
   color:#FFF;
   font-weight: 400;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 128%;
   text-transform: uppercase;
   word-spacing: 18px;
 }
 
-.cover__description-text .letter-spacing-extended {
+.letter-spacing-dt {
   letter-spacing: 25px;
 }
 
 .bet-button {
-  padding: 12px 32px 12px 31px;
   border: 1px solid #FFF;
+  padding: 12px 32px 12px 31px;
   color:#FFF;
   font-weight: 500;
   font-size: 22px;
@@ -197,7 +195,7 @@
   color: #FFF;
   font-weight: 700;
   font-size: 22px;
-  line-height: 26.4px;
+  line-height: 120%;
   text-decoration: underline solid #FFF 1px;
   text-underline-offset: 4px;
   text-transform: uppercase;
@@ -209,10 +207,10 @@
   color: #FFF;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
 }
 
-.card__text .letter-spacing-extended {
+.letter-spacing-ct {
   letter-spacing: 2.6px;
 }
 
@@ -263,7 +261,7 @@
   flex-direction: column;
   gap: 24px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
 }
 
 .letter-spacing-xs {
